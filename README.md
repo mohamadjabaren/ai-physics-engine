@@ -97,7 +97,7 @@ framework code at all, so a port would be mechanical.
 Python 3.10 or newer.
 
 ```bash
-git clone https://github.com/<your-username>/mechanics-lab.git
+git clone https://github.com/mohamadjabaren/mechanics-lab.git
 cd mechanics-lab
 
 python -m venv .venv
