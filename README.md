@@ -10,7 +10,6 @@ Built with Python and PySide6 (Qt 6). No web technologies.
 <!-- Add screenshots here once you have run tools/screenshot.py:
 ![Pendulum experiment](docs/02_pendulum.png)
 -->
-![Landing Page](docs/01_landing.png)
 ---
 
 ## Overview
@@ -70,6 +69,8 @@ running simulation. They should agree, which is the point.
 - Keyboard: `Space` run/pause, `R` reset, `T` theme, `Esc` back.
 
 ---
+![Landing Page](docs/01_landing.png)
+
 
 ## Why PySide6
 
@@ -90,7 +91,7 @@ signal/slot carry the same names in C++ Qt, and `app/core/` contains no
 framework code at all, so a port would be mechanical.
 
 ---
-
+![Pendulum Experiment](docs/02_pendulum.png)
 ## Installation
 
 Python 3.10 or newer.
@@ -167,7 +168,7 @@ importing the class, which is what keeps the core free of any render import.
   changed and continuing the old run would be meaningless.
 - There is no AI or machine learning component in this project. An earlier
   working title suggested otherwise.
-
+![Projectile Motion](docs/03_projectile.png)
 ## Licence
 
 MIT. PySide6 is used under the LGPL, which permits this.
