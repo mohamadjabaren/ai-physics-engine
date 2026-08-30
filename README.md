@@ -10,7 +10,7 @@ Built with Python and PySide6 (Qt 6). No web technologies.
 <!-- Add screenshots here once you have run tools/screenshot.py:
 ![Pendulum experiment](docs/02_pendulum.png)
 -->
-
+![Landing Page](docs/01_landing.png)
 ---
 
 ## Overview
