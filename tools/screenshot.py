@@ -21,20 +21,20 @@ def grab(name):
 
 def sequence():
     pump(1.6)                              # landing entrance finishes
-    grab("shots/01_landing.png")
+    grab("docs/01_landing.png")
 
     w.open_experiment("pendulum"); w.dashboard.canvas.play()
-    pump(1.4); grab("shots/02_pendulum.png")
+    pump(1.4); grab("docs/02_pendulum.png")
 
     w.open_experiment("projectile"); w.dashboard.canvas.play()
-    pump(1.8); grab("shots/03_projectile.png")
+    pump(1.8); grab("docs/03_projectile.png")
 
     w.open_experiment("spring"); w.dashboard.canvas.play()
-    pump(1.6); grab("shots/04_spring.png")
+    pump(1.6); grab("docs/04_spring.png")
 
     w.open_experiment("free_fall"); w.dashboard.canvas.play()
     pump(1.6); w.toggle_theme(); pump(0.5)
-    grab("shots/05_freefall_light.png")
+    grab("docs/05_freefall_light.png")
     app.quit()
 
 QTimer.singleShot(60, sequence)
